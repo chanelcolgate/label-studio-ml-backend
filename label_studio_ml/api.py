@@ -119,7 +119,7 @@ def webhook():
         return jsonify({'status': 'Unknown event'}), 200
     project_id = str(data['project']['id'])
     label_config = data['project']['label_config']
-    model = MODEL_CLASS(project_id, label_config=label_config)
+    model = MODEL_CLASS(project_id=project_id, label_config=label_config)
     model.fit(event, data)
     return jsonify({}), 201
 
