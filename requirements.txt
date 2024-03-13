@@ -4,4 +4,4 @@ requests~=2.31
 semver~=3.0.2
 label-studio-tools
 # label_studio_sdk from git master branch
-label_studio_sdk @ git+https://github.com/HumanSignal/label-studio-sdk.git@release/0.0.33
+label_studio_sdk @ git+https://github.com/chanelcolgate/label-studio-sdk.git
